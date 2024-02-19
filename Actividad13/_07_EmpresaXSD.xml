@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="_08_EmpresaXSD.xsd">
+    <nombre>Microsoft</nombre>
+    <nif>Y9876459H</nif>
+    <esEspañola>true</esEspañola>
+    <capitalSocial>
+        <euros>1000000</euros>
+    </capitalSocial>
+    <direccion>
+        <tipo_via>Calle</tipo_via>
+        <nombre_via>St Ginebra</nombre_via>
+        <codigo_postal>93456</codigo_postal>
+        <pais>USA</pais>
+    </direccion>
+    <empleados>
+        <empleado>
+            <nombre>John</nombre>
+            <apellidos>Doe</apellidos> 
+            <DNI>12345678A</DNI>
+            <esExtranjero>false</esExtranjero>
+            <fechaNacimiento>1990-01-01</fechaNacimiento>
+            <salario>50000</salario>
+            <direccionEmpleado>
+                <via>Main Street</via>
+                <pais>USA</pais>
+            </direccionEmpleado>
+            <estaCasado>false</estaCasado>
+        </empleado>
+        <empleado>
+            <nombre>Jane</nombre>
+            <apellidos>Smith</apellidos> 
+            <DNI>98765432B</DNI>
+            <esExtranjero>false</esExtranjero>
+            <fechaNacimiento>1985-05-15</fechaNacimiento>
+            <salario>60000</salario>
+            <direccionEmpleado>
+                <via>First Avenue</via>
+                <pais>USA</pais>
+            </direccionEmpleado>
+            <estaCasado>false</estaCasado>
+        </empleado>
+    </empleados>
+</empresa>

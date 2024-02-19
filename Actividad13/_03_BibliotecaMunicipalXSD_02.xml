@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="_02_BibliotecaXSD.xsd">
+    <nombre>Biblioteca municipal</nombre>
+        <seccion>
+            <libro>
+                <titulo>Los siete maridos de Evelyn Hugo</titulo>
+                <autor>Taylor Jenkins Reid</autor>
+                <resumen>Todo lo que puede llegar a hacer una persona para triunfar en Hollywood</resumen>
+                <editorial>
+                    <nombre>Umbriel</nombre>
+                    <ciudad>Madrid</ciudad>
+                </editorial>
+            </libro>
+            <libro>
+                <titulo>Orgullo y Prejuicio</titulo>
+                <autor>Jane Austen</autor>
+                <anio>1813</anio>
+                <resumen>Como surge el amor entre dos personas tan distintas.</resumen>
+                <editorial>
+                    <nombre>Alba</nombre>
+                    <ciudad>Madrid</ciudad>
+                </editorial>
+            </libro>
+        </seccion>
+        <seccion>
+            <libro >
+                <titulo>Carol</titulo>
+                <autor>Patricia Highsmith</autor>
+                <anio>1952</anio>
+                <resumen>Aventuras de una mujer que se enamora fuera de su matrimonio</resumen>
+                <editorial>
+                    <nombre>G. P. Putnam's Sons</nombre>
+                    <ciudad>Madrid</ciudad>
+                </editorial>
+            </libro>
+        </seccion>
+        <seccion>
+            <libro>
+                <titulo>Alas de sangre</titulo>
+                <autor>Rebecca Yarros</autor>
+                <resumen>Aventuras de una joven que lucha por sobrevivir en un mundo post-apocaliptico</resumen>
+                <editorial>
+                    <codigo>UY768H</codigo>
+                    <nombre>Ediciones fantasticas</nombre>
+                    <ciudad>Madrid</ciudad>
+                </editorial>
+            </libro>
+            <libro>
+                <titulo>Ciudades de  humo</titulo>
+                <autor>Joana Marcus</autor>
+                <anio>2020</anio>
+                <resumen>Joven robot finge ser una persona normal mientras esta siendo perseguida</resumen>
+                <editorial>
+                    <nombre>Planeta de libros</nombre>
+                    <ciudad>Madrid</ciudad>
+                </editorial>
+            </libro>
+        </seccion>
+    <!-- Puedes agregar más secciones y libros según sea necesario -->
+    </biblioteca>
