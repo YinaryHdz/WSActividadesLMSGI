@@ -1,0 +1,67 @@
+.blanco{
+    color: #ffffff;
+ }
+ 
+ .gris{
+     background-color: darkgrey;
+ }
+
+ .azul{
+    color: rgb(161, 220, 253);
+ }
+
+ .rojo{
+    background-color: brown;
+ }
+
+ header{
+    color: gold;
+    background-color: black;
+ }
+
+ footer{
+    color:#ffffff;
+    background-color: darkblue;
+ }
+
+ #h2Especial{
+    background-image: url(https://img.freepik.com/vector-premium/auriculares-musica-letrero-neon-sobre-fondo-pared-ladrillo-colores-rojo-azul-violeta_565173-391.jpg);
+    background-size: 1cm;
+    color: #ffffff;
+ }
+
+ #h2Taylor{
+    background-image: url(https://m.media-amazon.com/images/I/713xLMUNbuL.jpg);
+    background-size: 1cm;
+    color: #ffffff;
+ }
+
+ a{
+    color: #ffffff;
+ }
+
+ p{
+    text-align: center;
+ }
+
+ .fondo{
+    background-color: azure;
+ }
+
+ .pastel{
+    background-color: rgb(255, 225, 240);
+ }
+
+h4{
+    text-decoration: overline;
+}
+
+.color{
+    color: rgb(153, 28, 153);
+}
+
+img{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
