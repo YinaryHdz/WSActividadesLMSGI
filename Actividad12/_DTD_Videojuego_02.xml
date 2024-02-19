@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="no"?>
+<!DOCTYPE videojuego SYSTEM "_DTD_Videojuego_02.dtd">
+<videojuego id="Dut674" >
+    <info_basica>
+        <titulo>GTA</titulo>
+        <fecha_creacion>20/06/1991</fecha_creacion>
+        <nota_personal> 10 </nota_personal> 
+    </info_basica>
+    <programadores>
+        <programador id = "10">
+            <nombre>Tommara</nombre>
+            <apellidos>Evans Peters </apellidos>
+            <dni>1289334TGR</dni>
+            <fecha_nacimiento> 02/07/1975</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>St vodka</nombre_via>
+                <codigo_postal>93456</codigo_postal>
+                <pais>Australia</pais>
+            </direccion>
+        </programador> 
+        <programador id = "20">
+            <nombre>Taylor</nombre>
+            <apellidos>Swift</apellidos>
+            <dni>98765432D</dni>
+            <fecha_nacimiento>30/09/1986</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>St Snake</nombre_via>
+                <codigo_postal>45678</codigo_postal>
+                <pais>USA</pais>
+            </direccion>
+        </programador> 
+    </programadores>
+    <compania identificacion="jyuryt67">
+        <nombre>DMA Designs</nombre>
+        <nif>98761234F</nif>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>St vice</nombre_via>
+            <codigo_postal>467849</codigo_postal>
+            <pais>inglaterra</pais>
+        </direccion>
+    </compania> 
+    </videojuego>
