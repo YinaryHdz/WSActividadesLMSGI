@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario pizzeria</title>
+</head>
+<style>
+    body {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/017/293/734/original/pizza-italian-dish-with-tomato-sauce-cheese-and-various-toppings-cartoon-sticker-pizza-png.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 55cap;
+        background-size: 1100px;
+        color: #000;
+    }
+    textarea {
+        background: transparent;
+        color: #000;
+        resize: none;
+    }
+    select {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #000;
+    }
+   
+</style>
+<body>
+    <h1>Informacion cliente</h1>
+    <form action="procesarPeticion.jsp" method="get">
+    <fieldset>
+        <br/>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre completo:</label>
+        <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre completo." required>
+        <br/>
+        <br/>
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" name="pass">
+        <br/>
+        <br/>
+        <label for="direccion_entrega">Direccion de entrega:</label>
+        <input id="direccion_entrega" type="text" name="direccion_entrega" required>
+        <br/>
+        <br/>
+        <label for="tel">Numero de telefono:</label>
+        <input id="tel" type="tel" name="tel" required>
+        <br/>
+        <br/>
+        <label for="email">Correo electronico:</label>
+        <input  id="email" type="email" name="email">
+        <br/>
+        <br/>
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" min="16" max="100" step="1" name="edad" required>
+        <br/>
+    </fieldset>
+    <br/>
+    <h1>Pedido de Pizza</h1>
+    <fieldset>
+        <br/>
+        <legend> Crea tu Pizza</legend>
+        <label for="tamaño_pizza">Tamaño de la Pizza</label>
+        <br/>
+        <input type="radio" name="tamaño_pizza" value="I" /> Individual (8 Pulgadas) <br/>
+        <input type="radio" name="tamaño_pizza" value="M" /> Mediana (12 Pulgadas) <br/>
+        <input type="radio" name="tamaño_pizza" value="F" /> Familiar (16 Pulgadas) <br/>
+        <br/>
+        <label for="masa">Masa:</label>
+        <br/>
+        <input type="radio" name="masa" value="F" /> Finizzima <br/>
+        <input type="radio" name="masa" value="O" /> Original <br/>
+        <input type="radio" name="masa" value="P" /> Pan <br/>
+        <br/>
+        <label for="ingredientes">Ingredientes:</label>
+        <br/>
+        <input type="checkbox" name="ingredientes" value="Pepperoni" />Pepperoni <br/>
+        <input type="checkbox" name="ingredientes" value="PolloParrilla" />Pollo parrilla <br/>
+        <input type="checkbox" name="ingredientes" value="Jamon" /> Jamon <br/>
+        <input type="checkbox" name="ingredientes" value="Bacon" /> Bacon <br/>
+        <input type="checkbox" name="ingredientes" value="Ternera" /> Ternera <br/>
+        <input type="checkbox" name="ingredientes" value="Maiz" /> Maiz <br/>
+        <input type="checkbox" name="ingredientes" value="Cebolla" /> Cebolla <br/>
+        <input type="checkbox" name="ingredientes" value="ExtraQueso" /> Extra de mozzarella <br/>
+        <br/>
+        <label for="salsa">Salsa de base: </label>
+        <br/>
+        <input type="radio" name="salsa" value="Tomate" autofocus/> Salsa de tomate <br/>
+        <input type="radio" name="salsa" value="Barbacoa" /> Salsa barbacoa <br/>
+        <input type="radio" name="salsa" value="Carbonara" /> Salsa crema de queso (Carbonara) <br/>
+        <input type="radio" name="salsa" value="Texas" /> Salsa texas barbacoa <br/>
+        <input type="radio" name="salsa" value="Sin" /> Sin salsa <br/>
+        <br/>
+    </fieldset>
+    <br>
+    <h1>Instrucciones especiales</h1>
+    <fieldset>
+        <label for="instrucciones"><b> Por favor, proporcione cualquier instrucción especial o comentario adicional sobre su pedido</b>:</label>
+        <textarea name="instrucciones" id="instrucciones" cols="250" rows="10"></textarea>
+    </fieldset>
+    <h1>Método de pago</h1>
+    <fieldset>
+        <br/>
+        <label for="pago">Metodo:</label>
+        <select name="pago" id="pago" >
+            <option value="TC" selected>Tarjeta de crédito</option>
+            <option value="TC" >Efectivo</option>
+            <option value="TC" >PayPal</option>
+        </select>
+        <br/>
+        <br/>
+    </fieldset>
+    <br>
+    <h1>Terminar pedido</h1>
+    <fieldset>
+        <br/>
+        <label for="terminos"><a href="LoremIpsum.html">¿Acepta los terminos de uso? </a></label>
+        <br/>	
+        He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+        <br/>	
+        <br/>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Limpiar formulario">
+        <br/>
+    </fieldset>
+    <br/>
+    <br/>
+</form>
+</body>
+</html>
