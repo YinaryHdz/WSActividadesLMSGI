@@ -1,0 +1,53 @@
+{
+    "videojuego": {
+        "-id": "Mario",
+        "nombre": "Mario Kart ",
+        "fecha_creacion": "27 de agosto de 1992",
+        "nota_personal": " 10/10 ",
+        "programadores": {
+            "programador": [
+                {
+                    "-id": "1",
+                    "nombre": "Tommy",
+                    "apellidos": "Stuart Little ",
+                    "dni": "12345678D",
+                    "fecha_nacimiento": "12/01/  1965",
+                    "direccion": {
+                        "tipo_via": "Calle",
+                        "nombre_via": "St Ginebra",
+                        "codigo_postal": "93456",
+                        "pais": "USA"
+                    }
+                },
+                {
+                    "-id": "2",
+                    "nombre": "Scaarlett",
+                    "apellidos": "Johansson ",
+                    "dni": "98765432D",
+                    "fecha_nacimiento": "22 de noviembre de 1974",
+                    "direccion": {
+                        "tipo_via": "Calle",
+                        "nombre_via": "St Widow",
+                        "codigo_postal": "45678",
+                        "pais": "USA"
+                    }
+                }
+            ]
+        },
+        "compañia": {
+            "-id": "desarrollador",
+            "nombre": "Nintendo",
+            "nif": "98761234F",
+            "direccion": {
+                "tipo_via": "Calle",
+                "nombre_via": "St Mario",
+                "codigo_postal": "467849",
+                "pais": "USA"
+            }
+        },
+        "codigo_html_videojuego": {
+            "#cdata-section": {}
+        }
+    }
+}
+
