@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ciudad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="_02_Ciudad.xsd"
+codigoIdentificador="rt-4534">
+<nombre>Madrid</nombre>
+<poblacion>90009</poblacion>
+<alcalde edad="25">
+    <nombre>Carlos</nombre>
+    <apellido>Gomez Perez</apellido>
+    <telefono>+34987654321</telefono>
+    <correoElectronico>+gomez%perez@alcalde.com</correoElectronico>
+</alcalde>
+<funcionarios>
+    <funcionario id="8909edsfF">
+        <nombreCompleto>Jose Lopez Rodriguez</nombreCompleto>
+        <codigoPostal>28030</codigoPostal>
+        <fechaNacimiento>23/12/1990</fechaNacimiento>
+        <contraseña>A2567830910%</contraseña>
+        <numeroCuenta>ES2345 4356 3245</numeroCuenta>
+    </funcionario>
+</funcionarios>
+</ciudad>
