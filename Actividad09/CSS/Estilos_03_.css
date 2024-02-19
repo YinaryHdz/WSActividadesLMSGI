@@ -1,0 +1,51 @@
+.li1 {
+    list-style: none;
+    padding-left: 20px;
+    background: url(https://cdn2.iconfinder.com/data/icons/kid-superheroes-cartoons/50/12-512.png) no-repeat left center;
+    background-size: 20px 20px;
+    height: 20px;
+}
+
+.li2 {
+    list-style: none;
+    padding-left: 20px;
+    background: url(https://cdn1.iconfinder.com/data/icons/avengers-1/512/avangers_icon011-512.png) no-repeat left center;
+    background-size: 20px 20px;
+    height: 20px;
+}
+
+.li3 {
+    list-style: none;
+    padding-left: 20px;
+    background: url(https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-21-512.png) no-repeat left center;
+    background-size: 20px 20px;
+    height: 20px;
+}
+
+.li4 {
+    list-style: none;
+    padding-left: 20px;
+    background: url(https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-13-512.png) no-repeat left center;
+    background-size: 20px 20px;
+    height: 20px;
+}
+
+.li5{
+    list-style: none;
+    padding-left: 20px;
+    background: url(https://cdn4.iconfinder.com/data/icons/superhero/400/loki.png) no-repeat left center;
+    background-size: 20px 20px;
+    height: 20px;
+}
+#ordenada{
+    list-style-type: upper-alpha;
+}
+
+
+#ol{
+    list-style: lower-roman;
+}
+
+#ul{
+    list-style-type: square;
+}

@@ -1,0 +1,28 @@
+.tnr{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h1{
+    color: rgb(6, 6, 121);
+}
+
+#especial{
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    text-indent: 10px;
+}
+
+.h3esp{
+border: 10px;
+width: 30%;
+text-align: right;
+}
+
+.pesp{
+    text-align: justify;
+    border: 10px;
+    background-color: gold;
+}
+

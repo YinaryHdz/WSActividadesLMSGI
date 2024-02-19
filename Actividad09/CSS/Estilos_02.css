@@ -1,0 +1,27 @@
+.tnr{
+    border:3px blue solid;
+    
+}
+
+h1{
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    color: rgb(102, 13, 40);
+    font-size: xx-large;
+    font-family: fantasy;
+    text-decoration-line: initial;
+}
+
+#especial{
+    border-style: inset;
+    border-width: 3px;
+    border-top-color: aqua; 
+    border-bottom-color: bisque;
+    border-right-color: darkseagreen;
+    border-left-color: lightcoral;
+    border-top-width: 3px;
+    border-right-width: 4px;
+    border-bottom-width: 5px;
+    border-left-width: 6px;
+}
