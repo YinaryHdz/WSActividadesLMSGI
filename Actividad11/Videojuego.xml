@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuego id = "Mario">
+<nombre>Mario Kart </nombre>
+<fecha_creacion>27 de agosto de 1992</fecha_creacion>
+<nota_personal> 10/10 </nota_personal> 
+<programadores>
+    <programador id = "1">
+        <nombre>Tommy</nombre>
+        <apellidos>Stuart Little </apellidos>
+        <dni>12345678D</dni>
+        <fecha_nacimiento>12/01/  1965</fecha_nacimiento>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>St Ginebra</nombre_via>
+            <codigo_postal>93456</codigo_postal>
+            <pais>USA</pais>
+        </direccion>
+    </programador> 
+    <programador id = "2">
+        <nombre>Scaarlett</nombre>
+        <apellidos>Johansson </apellidos>
+        <dni>98765432D</dni>
+        <fecha_nacimiento>22 de noviembre de 1974</fecha_nacimiento>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>St Widow</nombre_via>
+            <codigo_postal>45678</codigo_postal>
+            <pais>USA</pais>
+        </direccion>
+    </programador> 
+</programadores>
+<compañia id = "desarrollador">
+    <nombre>Nintendo</nombre>
+    <nif>98761234F</nif>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>St Mario</nombre_via>
+            <codigo_postal>467849</codigo_postal>
+            <pais>USA</pais>
+        </direccion>
+</compañia> 
+<codigo_html_videojuego>
+        <![CDATA[ 
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mario Kart</title>
+            <style>
+                h1{
+                text-align: center;
+                }
+                h2{
+                color: rgb(192, 3, 41);
+                text-align: center;
+                }
+                img{
+                 display: block;
+                width: 30%;
+                margin: auto;
+                 }
+            </style>
+            </head>
+            <body>
+                <h1>¡BIENVENIDO AL MUNDO DE LAS CARRERAS!</h1>
+                <h2>MARIO KART</h2>
+                <img src="https://media.vandal.net/i/640x360/10-2023/18/202310182222449_5.jpg" alt="">
+            </body>
+            </html>
+        ]]>
+    </codigo_html_videojuego>
+</videojuego>
