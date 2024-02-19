@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="_02_EmpresaXSD.xsd"
+nif="Rt545545" pais="España" fechaCreacion="02/02/1994">
+    <nombre>Microsoft</nombre>
+    <esEspañola>true</esEspañola>
+    <capitalSocial moneda="Euros">6.0000</capitalSocial>
+    <direccion>
+        <tipo_via>Calle</tipo_via>
+        <nombre_via>St Ginebra</nombre_via>
+        <codigo_postal>93456</codigo_postal>
+        <pais>USA</pais>
+    </direccion>
+    <empleados>
+        <empleado DNI="P454555P">
+            <nombre>John</nombre>
+            <apellidos>Doe</apellidos> 
+            <esExtranjero>false</esExtranjero>
+            <fechaNacimiento>1990-01-01</fechaNacimiento>
+            <salario>2000</salario>
+            <direccionEmpleado>Casalarreina 23, España</direccionEmpleado>
+            <estaCasado/>
+        </empleado>
+        <empleado DNI="P454555P">
+            <nombre>Jane</nombre>
+            <apellidos>Smith</apellidos> 
+            <esExtranjero>false</esExtranjero>
+            <fechaNacimiento>1985-05-15</fechaNacimiento>
+            <salario>1500</salario>
+            <direccionEmpleado>Firs Avenue, USA</direccionEmpleado>
+            <estaCasado/>
+        </empleado>
+    </empleados>
+</empresa>
