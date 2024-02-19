@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/519/400/HD-wallpaper-harry-potter-android-gryffindor-iphone-minimalism-trending.jpg);
+    background-size: 33%;
+    background-attachment: fixed;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+p{
+   font-size: x-large;
+   font-style: oblique;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#img{
+    width: 60%;
+}
+
+#imagen{
+    size: 500px;
+}
+
+#cabecera{
+    font-size: 10px;
+}
+
+#cab{
+    font-size: 2em;
+}
+
+section{
+    background-color: color(display-p3 red green blue);
+    color: rgb(24, 73, 6);
+    margin: 25px;
+    border: 2px solid black
+
+}
+
+#section{
+    color: rgb(15, 16, 77);
+
+}
+
