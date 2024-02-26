@@ -1,0 +1,76 @@
+{
+    "biblioteca":{
+        "codigo":"B_67",
+        "nombre":"Biblioteca nacional",
+        "seccion":[
+            {
+                "categoria":"Aventura",
+                "libro":[
+                    {
+                        "id":"L1",
+                        "titulo":"El señor de los anillos",
+                        "autor":"J.R.R. Tolkien",
+                        "resumen":"Un viaje epico para destruir un anillo magico",
+                        "editorial":{
+                            "nombre":"Editorial Fantastica",
+                            "ciudad":"Barcelona"
+                        }
+                    },
+                    {
+                        "id":"L2",
+                        "titulo":"Harry Potter y la piedra filosofal",
+                        "autor":"J.K. Rowling",
+                        "anio":"1997",
+                        "resumen":"Las aventuras de un mago en Hogwarts",
+                        "editorial":{
+                            "nombre":"Ediciones Mágicas",
+                            "ciudad":"Londres"
+                        }
+                    }
+                ]
+            },
+            {
+                "categoria":"Novela",
+                "pasillo":"P3",
+                "libro":{
+                    "id":"L3",
+                    "titulo":"Cien años de soledad",
+                    "autor":"Gabriel Garcia Marquez",
+                    "anio":"1967",
+                    "resumen":"La historia de la familia Buendía en Macondo.",
+                    "editorial":{
+                    "nombre":"Ediciones Macondo",
+                    "ciudad":"Bogota"
+                    }
+                }
+            },
+            {
+                "categoria":"CienciaFiccion",
+                "libro":[
+                    {
+                        "id":"L4",
+                        "titulo":"1984",
+                        "autor":"George Orwell",
+                        "resumen":"Un futuro distópico donde el pensamiento está controlado.",
+                        "editorial":{
+                            "codigo":"ED45TR",
+                            "nombre":"Editorial Distopia",
+                            "ciudad":"Londres"
+                        }
+                    },
+                    {
+                        "id":"L5",
+                        "titulo":"Fundacion",
+                        "autor":"Isaac Asimov",
+                        "anio":"1951",
+                        "resumen":"La historia de la Fundación para prever el futuro galáctico.",
+                        "editorial":{
+                            "nombre":"Ediciones Galácticas",
+                            "ciudad":"Nueva York"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
