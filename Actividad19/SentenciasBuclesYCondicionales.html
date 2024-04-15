@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentencias Bucles y Condicionales </title>
+    <script type="text/javascript" src="SentenciasBuclesYCondicionales..js"></script>
+</head>
+<body>
+    <!--Contador de numeros pares-->
+    <p> A continuacion se mostrara la cantidad de números pares en un rango de tu eleccion</p>
+    <label>Introduzca el primer numero del rango: </label><input id="n1" type="text"/>
+    <br/><br/>
+    <label>Introduzca el segundo numero del rango: </label><input id="n2" type="text"/>
+    <br/><br/>
+    <button onclick="contadorNumerosPares()">Contador de numeros pares</button>
+    <br/><br/>
+    <label></label><input id="resultado" type="text"/>
+
+    <!--Conversor de temperatura-->
+    <p> A continuacion se cambiara la temperatura.</p>
+    <label>Introduzca la temperatura: </label><input id="temp" type="text"/>
+    <br/>
+    <p>Seleccione la direccion de conversion</p>
+    <select name="conversion" id="conversion" >
+        <option value="fac" selected>De fahrenheit a celcius</option>
+        <option value="caf" >De celcius a fahrenheit</option>
+    </select>
+    <button onclick="convertirTemperatura()">Convertir</button>
+    <label></label><input id="resul" type="text" readonly/>
+
+    <!--Adivinar el numero aleatorio-->
+    <h1>Adivina el número</h1>
+    <p>Intenta adivinar el número que ha generado el programa.</p>
+    <input type="number" id="guess" placeholder="Introduce tu número">
+    <button onclick="comprobarNumero()">Comprobar</button>
+    <p id="res"></p>
+
+
+
+
+</body>
+</html>
