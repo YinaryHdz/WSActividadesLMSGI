@@ -1,0 +1,100 @@
+#colorInput {
+    margin-bottom: 10px;
+}
+#colorInput:focus {
+    outline: none;
+}
+#cambioColor{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para encabezados */
+h1 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #28a745;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para párrafos */
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Estilos para etiquetas y campos de entrada */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para botones */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para resultados y mensajes */
+.resultado {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.success {
+    color: #28a745;
+}
+
+.error {
+    color: #dc3545;
+}
+
+/* Estilos adicionales */
+.text-center {
+    text-align: center;
+}
