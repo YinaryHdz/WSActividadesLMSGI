@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays y Clases</title>
+    <script type="text/javascript" src="Arrays.js"></script>
+    <link rel="stylesheet" href="Arrays.css"></head>
+</head>
+<body>
+<!--CALCULAR PROMEDIO DE LOS NUMEROS-->
+<h1>Promedio de números</h1>
+<div id="contenedorPromedio">
+    <input type="number" id="numeroPromedio" placeholder="Ingresa un número">
+    <button onclick="agregarNumero('promedio')">Agregar número</button>
+</div>
+<button onclick="calcularPromedio()">Calcular promedio</button>
+<input id="resultado" type="text" readonly>
+<!--CALCULAR EL NUMERO MAYOR-->
+<h1>Numero mayor</h1>
+<div id="mayor">
+    <input type="number" id="numeroMayor" placeholder="Ingresa un número">
+    <button onclick="agregarNumero('mayor')">Agregar número</button>
+</div>
+<button onclick="numeroMayor()">Calcular numero mayor</button>
+<input id="resultadoNumeroMayor" type="text" readonly>
+
+<!--CALCULAR PARES E IMPARES -->
+<h1>Numeros pares e impares</h1>
+<div id="parEImpar">
+    <input type="number" id="numeroParEImpar" placeholder="Ingresa un número">
+    <button onclick="agregarNumero('parEImpar')">Agregar número</button>
+</div>
+<button onclick="calcularParesEImpares()">Calcular pares e impares </button>
+<input id="resultadoParEImpar" type="text" readonly>
+
+
+</body>
+</html>
