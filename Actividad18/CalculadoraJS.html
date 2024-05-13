@@ -31,6 +31,44 @@
         }
 
     </script>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    width: 210px;
+}
+
+    </style>
 </head>
 <body>
     <label>Introduzca el primer numero a operar: </label><input id="n1" type="text"/>
@@ -43,6 +81,5 @@
     <button onclick="dividir()">Dividir</button>
     <br/><br/>
     <label>El resultado de la operacion es: </label><input id="resultado" type="text"/>
-
 </body>
 </html>
